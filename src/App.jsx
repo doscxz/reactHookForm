@@ -1,4 +1,4 @@
-import { Controller, FormProvider, useForm } from 'react-hook-form'
+import { Controller, useForm } from 'react-hook-form'
 import styles from './App.module.scss'
 // import { useEffect } from 'react'
 function App() {
@@ -29,7 +29,7 @@ function App() {
 
 
   return (
-    <FormProvider {...methods}>
+    <>
       <h1>Feedback form</h1>
 
       {/* <button onClick={() => reset()}>reset</button> */}
@@ -73,7 +73,7 @@ function App() {
         <button type="submit">send</button>
 
       </form>
-    </FromPro>
+    </>
   )
 }
 
