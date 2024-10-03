@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.from {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-inline: auto;
+
+  >input {
+    height: 30px;
+  }
+
+  >textarea {
+    resize: vertical;
+    max-height: 300px;
+  }
+
+  >button {}
+}
